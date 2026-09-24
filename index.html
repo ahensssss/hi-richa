@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10070d">
+  <title>For Richa ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <!-- <div class="page-counter"><span id="currentPage">01</span><i></i><span>05</span></div> -->
+
+  <main id="book">
+
+    <!-- PAGE 1 -->
+    <section class="page active" data-page="1">
+      <div class="page-inner hero">
+        <div class="eyebrow">A little something for you</div>
+        <h1>Richa<span>♥</span></h1>
+        <p class="hero-copy">Some meetings are ordinary.<br><em>Yesterday wasn't.</em></p>
+        <p class="tiny-intro">I made you something. Turn the page…</p>
+        <button class="next-btn" data-next>Turn the page <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section class="page" data-page="2">
+      <div class="page-inner story">
+        <div class="section-tag">Yesterday</div>
+        <h2>It was just a cafe date…<br><em>or was it?</em></h2>
+
+        <div class="story-grid">
+          <!-- <article class="story-card">
+            <div class="icon">☕</div>
+            <h3>One cafe</h3>
+            <p>One little meeting that somehow stayed on my mind much longer than I expected.</p>
+          </article> -->
+          <article class="story-card">
+            <div class="icon">♡</div>
+            <h3>One small gesture</h3>
+            <p>You wiped my face with a tissue. I felt blessed.</p>
+          </article>
+          <!-- <article class="story-card">
+            <div class="icon">🤝</div>
+            <h3>Those moments</h3>
+            <p>You held my hand several times, and honestly… I didn't mind any of those times.</p>
+          </article> -->
+        </div>
+
+        <button class="next-btn bottom-btn" data-next>There's more <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section class="page" data-page="3">
+      <div class="page-inner feelings">
+        <div class="section-tag" style="margin-top: 24px;">The part I can't ignore</div>
+
+        <div class="feeling-layout">
+          <div class="feeling-copy">
+            <h2>Your eyes.<br>Your smile.<br><em>Your vibe.</em></h2>
+            <p>
+              I don't know how to explain it without sounding a little crazy after just one day.
+              But I genuinely enjoyed being around you.
+            </p>
+            <p>
+              Your eyes caught my attention, your smile made everything feel lighter,
+              and your vibe… that was my favorite part.
+            </p>
+            <p class="small-note">
+              Maybe yesterday was only the beginning of a story.<br>
+              Maybe it wasn't.<br>
+              But I really, really want to find out.
+            </p>
+          </div>
+
+          <!-- <div class="photo-frame">
+            REPLACE THIS DUMMY IMAGE WITH YOUR PHOTO
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=85"
+                 alt="Replace this with Richa's photo">
+            <div class="photo-caption">a space waiting for your favorite photo ✨</div>
+          </div> -->
+        </div>
+
+        <button class="next-btn bottom-btn" data-next>One more thing <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- PAGE 4 -->
+    <section class="page" data-page="4">
+      <div class="page-inner confession">
+        <div class="section-tag">Okay, I'll say it</div>
+
+        <div class="confession-card">
+          <div class="tiny-heart">♥</div>
+          <h2>Richa, I know we met<br><em>only yesterday.</em></h2>
+          <p>And maybe that's ridiculously soon to say this…</p>
+
+          <div class="type-line">
+            <span id="typed"></span><span class="cursor">|</span>
+          </div>
+
+          <p class="after-type">
+            I want to know you more.<br>
+            I want another cafe date.<br>
+            I want a tight hug.🫣
+          </p>
+        </div>
+
+        <button class="next-btn bottom-btn" data-next>Okay… one question <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- PAGE 5 -->
+    <section class="page" data-page="5">
+      <div class="page-inner proposal">
+        <div class="proposal-glow"></div>
+        <div class="proposal-content">
+          <div class="section-tag">One question</div>
+          <div class="ring">♥</div>
+          <h2>Richa,<br><em>will you be mine?</em></h2>
+          <p class="proposal-sub">
+            No pressure. Just one honest little question.
+          </p>
+
+          <div class="buttons" id="buttons">
+            <button id="yesBtn" class="yes-btn">Yes ♥</button>
+            <button id="noBtn" class="no-btn">No 🙈</button>
+          </div>
+          <p class="hint" id="hint">P.S. The “No” button is a little shy.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="yes-screen" id="yesScreen" aria-hidden="true">
+    <div class="celebrate-hearts"></div>
+    <div class="yes-inner">
+      <div class="big-heart">♥</div>
+      <div class="section-tag">you just made my day</div>
+      <h2>Okay…<br><em>this is officially our beginning. ❤️</em></h2>
+      <p>Now I think we owe ourselves an another date.</p>
+      <button class="back-btn" id="backBtn">Read it again ↺</button>
+    </div>
+  </div>
+
+  <!-- <footer>made with a little courage & a lot of heart · for Richa</footer> -->
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
