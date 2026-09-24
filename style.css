@@ -277,7 +277,7 @@ h2 em {
 }
 .story-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 18px;
   position: relative;
   z-index: 2;
@@ -327,7 +327,7 @@ h2 em {
 }
 .feeling-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 70px;
   align-items: center;
   margin-top: 5px;
