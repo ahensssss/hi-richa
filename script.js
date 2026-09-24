@@ -156,7 +156,7 @@ $(function () {
 
     typedDone = true;
 
-    const text = "I think I like you, Richa.";
+    const text = "I think I love you, Richa.";
     let i = 0;
 
     $("#typed").text("");
